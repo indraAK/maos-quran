@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Maos Quran</h1>
 
-## Getting Started
+Al-Qur'an online berbasis web yang dilengkapi dengan terjemahan, tafsir, dan audio ayat.
 
-First, run the development server:
+## Live Website
+
+## Screenshoot
+
+<div align="middle">
+    <span>
+    <h3>Light</h3>
+    <img src="https://i.ibb.co/6mtV9nH/mobile-light.png" alt="Light Mode" width="300" />
+</span>
+
+<br>
+
+<span>
+    <h3>Dark</h3>
+    <img src="https://i.ibb.co/0FZ4pt2/mobile-dark.png" alt="Dark Mode" width="300" />
+</span>
+</div>
+
+## Fitur
+
+1. Cari surah
+2. Tandai surah favorit
+3. Tandai ayat terakhir dibaca
+4. Putar audio ayat
+5. Paginasi surah (Sebelumnya | Berikutnya)
+6. Tampilkan / sembunyikan terjemah
+7. Tampilkan / sembunyikan tafsir
+8. Mode gelap
+
+## Instalasi
+
+Untuk instal dan menjalankan aplikasi ini, pastikan bahwa [Git](https://git-scm.com) dan [Node.js](https://nodejs.org/en/download/) sudah terinstal di komputer anda, lalu jalankan command line berikut:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this repository
+$ git clone https://github.com/indraAK/maos-quran.git
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Teknologi
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/) (React Framework for Production)
+- [Chakra UI](https://chakra-ui.com/) (UI Component Library)
+- [Zustand](https://github.com/pmndrs/zustand) (State management in React)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Sumber
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Data Al-Quran beserta terjemahan, tafsir & audio ayat dari [@sutanlab](https://github.com/sutanlab/quran-api)
+- Data Asmaul Husna dari [jagad.id](https://jagad.id/99-asmaul-husna-latin-arab-dan-terjemahan-indonesia-inggris/), versi JSON dari [@mazipan](https://github.com/mazipan/baca-quran.id/blob/master/data/asmaul-husna.json)
+- Data Do'a harian dari [doaharianislami.com](https://www.doaharianislami.com/2017/06/kumpulan-doa-sehari-hari-lengkap-dalam-bahasa-arab-latin-dan-artinya.html), versi JSON dari [@mazipan](https://github.com/mazipan/baca-quran.id/blob/master/data/daily-doa.json)
+- Data Wirid dari [islam.nu.or.id](https://islam.nu.or.id/post/read/79315/susunan-bacaan-wirid-sesudah-shalat-lima-waktu), versi JSON dari [@mazipan](https://github.com/mazipan/baca-quran.id/blob/master/data/wirid.json)
+- Data Tahlil dari [islam.nu.or.id](https://islam.nu.or.id/post/read/79315/susunan-bacaan-wirid-sesudah-shalat-lima-waktu), versi JSON dari [@mazipan](https://github.com/mazipan/baca-quran.id/blob/master/data/tahlil.json)
+- Inspirasi desain aplikasi dari [@mazipan](https://github.com/mazipan/baca-quran.id)
