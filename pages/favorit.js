@@ -12,7 +12,7 @@ function FavoriteSurah() {
   return (
     <>
       <Head>
-        <title>Daftar Surah yang disukai | Maos Quran</title>
+        <title>Daftar Surah Favorit | Maos Quran</title>
       </Head>
 
       <PageHeader title="Surah Favorit" goBack />
@@ -38,7 +38,11 @@ function FavoriteSurah() {
               height="200px"
               alt="Joyride Icon"
             />
-            <Text color="gray.600" mt="30px">
+            <Text
+              color={colorMode === "dark" ? "gray.200" : "gray.700"}
+              textAlign="center"
+              mt="30px"
+            >
               Anda belum punya surah yang ditandai sebagai favorit.
             </Text>
           </Flex>
