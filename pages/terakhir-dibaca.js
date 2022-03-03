@@ -11,10 +11,7 @@ function VerseLastRead() {
   return (
     <>
       <Head>
-        <title>
-          Ayat Terakhir Dibaca QS. {verseLastRead.name.transliteration.id}:{" "}
-          {verseLastRead.verse} | Maos Quran
-        </title>
+        <title>Ayat Terakhir Dibaca | Maos Quran</title>
       </Head>
 
       <PageHeader title="Terakhir Dibaca" goBack />
