@@ -43,7 +43,6 @@ export default function Navbar() {
     <Flex
       as="nav"
       bg={colorMode === "dark" ? "#152451" : "white"}
-      columnGap={4}
       justifyContent="space-between"
       position="fixed"
       inset="auto 0 0 0"
