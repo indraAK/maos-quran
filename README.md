@@ -31,7 +31,7 @@ Al-Qur'an online berbasis web yang dilengkapi dengan terjemahan, tafsir, dan aud
 5. Paginasi surah (Sebelumnya | Berikutnya)
 6. Tampilkan / sembunyikan terjemah
 7. Tampilkan / sembunyikan tafsir
-8. Mode gelap
+8. Mode terang & gelap
 
 ## Instalasi
 
